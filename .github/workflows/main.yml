@@ -27,7 +27,7 @@ jobs:
           # Options
           template: classic
           base: header, activity, community, repositories, metadata
-          config_display: columns
+          config_display: regular
           config_timezone: Europe/Rome
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
