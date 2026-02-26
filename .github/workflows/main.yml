@@ -45,11 +45,11 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_repositories: yes
           plugin_repositories_order: featured, pinned, starred, random
-          plugin_repositories_pinned: 1
+          plugin_repositories_pinned: 4
           plugin_repositories_random: 1
           plugin_repositories_starred: 1
-          plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam: yes          
           plugin_steam_achievements_limit: 2
           plugin_steam_games_limit: 1
           plugin_steam_playtime_threshold: 2
